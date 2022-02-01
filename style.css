@@ -491,7 +491,6 @@ footer .container iframe{
 }
 
 @media screen and (max-width:991px){
-
     #structure{
         padding: 10px 0 30px 0;
         width: 100%;
@@ -593,6 +592,7 @@ footer .container iframe{
             display: flex;
             flex-direction: column;
             text-align: center;
+            padding: 10px 0;
         }
         .banner img{
             width: 200px;
@@ -647,6 +647,22 @@ footer .container iframe{
         }
         header#sidebar{
             min-width: 200px;
+        }
+        .banner{
+            padding: 70px 0;
+        }
+        .banner img{
+            display: none;
+        }
+        .under-title{
+            margin: -10px 0 0px 10px;
+        }
+        .bulle h2{
+            margin: 25px 0 15px 10px;
+        }
+        #services .card{
+            margin: 10px 10px;
+            padding: 20px;
         }
         .coordonnes img{
             width: 250px;
